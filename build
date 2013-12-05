@@ -1,8 +1,0 @@
-#!/bin/bash
-cd ../../
-source build/envsetup.sh
-setpaths
-cd -
-make clean
-make smdkv210single_config
-make ARCH=arm CROSS_COMPILE=arm-linux-
